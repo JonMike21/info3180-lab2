@@ -1,3 +1,89 @@
 body {
     padding-top: 5rem;
+    width: 450px;
+    margin: auto;
+    
 }
+
+#ph1{
+    text-shadow: 1px 3px rgba(78, 92, 96, 0.744);
+    
+}
+
+p{
+    text-align: center;
+}
+
+
+.a{
+    text-shadow: 1px 2px rgb(78, 92, 96);
+    text-align: center;
+    background-color: rgb(114, 133, 139);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding-bottom: 10px;
+    color: aliceblue;
+}
+.b{
+    text-align: center;
+    color: rgb(114, 133, 139);
+    padding-bottom: 20px;
+    padding-top: 7px;
+}
+
+
+.image{
+    padding-top: 20px;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    box-shadow: 7px 7px 5px rgb(78, 92, 96);
+}
+main{
+    border: 2px solid rgb(114, 133, 139);
+    border-radius: 14px;
+}
+
+.container{
+    padding: 0%;
+}
+
+td{
+    padding-left: 20px;
+    padding-right: 20px;
+} 
+
+.row1 {
+    color: rgb(183, 106, 18);
+    font-weight: bold;
+}
+
+button{
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(114, 133, 139);
+    border: 2px solid rgb(217, 223, 229);
+    border-radius: 11px;
+    color: aliceblue;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    
+  }
+  p{
+    margin: 2px;
+  }
+
+  .btn{
+    padding-top: 50px;
+  }
+
+  .b > p{
+    padding-bottom: 20px;
+  }

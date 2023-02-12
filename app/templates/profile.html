@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block main %}
+    <div class="a">
+        <img src="{{url_for('static',filename='Robot rabbit.jpg')}}"  alt="Not me" class="image"/>
+
+
+        <h1 id="ph1">Jon-Michael Ferguson</h1>
+        <p>@JonMike21</p>
+        <p>Kingston, Jamaica</p>
+        <p>{{ date }}</p>
+    </div>
+
+    <div class="b"> 
+        <p>I am a photographer who tries to draw and code at this point.</p>
+        <table>
+            <tr class="row1">
+                <td>7</td> 
+                <td>100</td>
+                <td>250</td>
+            </tr>
+        
+            <tr class="row2">
+                <td>Posts</td>
+                <td>Following</td>
+                <td>Followers</td>
+            </tr>
+        
+        </table>
+        <div class="btn">
+            <button>Follow</button>
+        </div>
+    </div>
+
+
+{% endblock %}
